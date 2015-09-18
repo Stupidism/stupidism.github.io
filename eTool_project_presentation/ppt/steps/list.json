@@ -1,0 +1,271 @@
+[
+    {
+        "uri": "1cover.html",
+        "id": "cover",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": -900,
+            "z": -200,
+            "scale": 1,
+            "rotate-x": 20,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "contents"
+    },
+    {
+        "uri": "2contents.html",
+        "id": "contents",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "thanks"
+    },
+    {
+        "uri": "21description/step.html",
+        "id": "description",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": -2298,
+            "z": -1926,
+            "scale": 1,
+            "rotate-x": -50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "contents"
+    },
+    {
+        "uri": "21description/eNodeB.html",
+        "id": "eNodeB",
+        "class": "step",
+        "data": {
+            "x": 1800,
+            "y": -2940,
+            "z": -1160,
+            "scale": 1,
+            "rotate-x": -50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "description"
+    },{
+        "uri": "21description/profile.html",
+        "id": "profile",
+        "class": "step",
+        "data": {
+            "x": 1630,
+            "y": -2940,
+            "z": -1160,
+            "scale": 1,
+            "rotate-x": -50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "description"
+    },
+    {
+        "uri": "21description/OSSServer.html",
+        "id": "OSSServer",
+        "class": "step",
+        "data": {
+            "x": 1400,
+            "y": -2940,
+            "z": -1160,
+            "scale": 1,
+            "rotate-x": -50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "description"
+    },
+    {
+        "uri": "21description/bcgtool.html",
+        "id": "bcgtool",
+        "class": "step",
+        "data": {
+            "x": 1200,
+            "y": -2940,
+            "z": -1160,
+            "scale": 1,
+            "rotate-x": -50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "description"
+    },
+    {
+        "uri": "22doneBefore/step.html",
+        "id": "doneBefore",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": -1500,
+            "z": -2598,
+            "scale": 0.5,
+            "rotate-x": -30,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "contents"
+    },
+    {
+        "uri": "23todoInPlan/step.html",
+        "id": "todoInPlan",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": -520,
+            "z": -2988,
+            "scale": 1,
+            "rotate-x": -10,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "contents"
+    },
+    {
+        "uri": "24alternatives/step.html",
+        "id": "alternatives",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": 520,
+            "z": -2988,
+            "scale": 1,
+            "rotate-x": 10,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "classDiagram"
+    },
+    {
+        "uri": "24alternatives/step1.html",
+        "id": "classDiagram",
+        "class": "step",
+        "data": {
+            "x": 800,
+            "y": 520,
+            "z": -2988,
+            "scale": 1,
+            "rotate-x": 10,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "contents"
+    },
+    {
+        "uri": "25optimized/step.html",
+        "id": "optimized",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": 1500,
+            "z": -2598,
+            "scale": 1,
+            "rotate-x": 30,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "contents"
+    },
+    {
+        "uri": "26doneByMe/step.html",
+        "id": "doneByMe",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": 2298,
+            "z": -1926,
+            "scale": 1,
+            "rotate-x": 50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "contents"
+    },
+    {
+        "uri": "26doneByMe/delta/step.html",
+        "id": "delta",
+        "class": "step",
+        "data": {
+            "x": 1200,
+            "y": 2298,
+            "z": -2926,
+            "scale": 1,
+            "rotate-x": 50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "doneByMe"
+    },
+    {
+        "uri": "26doneByMe/serialize/step.html",
+        "id": "serialize",
+        "class": "step",
+        "data": {
+            "x": 1950,
+            "y": 2298,
+            "z": -2926,
+            "scale": 1,
+            "rotate-x": 50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "doneByMe"
+    },
+    {
+        "uri": "26doneByMe/deserialize/step.html",
+        "id": "deserialize",
+        "class": "step",
+        "data": {
+            "x": 2000,
+            "y": 3298,
+            "z": -1926,
+            "scale": 1,
+            "rotate-x": 50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "doneByMe"
+    },
+    {
+        "uri": "26doneByMe/sync/step.html",
+        "id": "sync",
+        "class": "step",
+        "data": {
+            "x": 1100,
+            "y": 3298,
+            "z": -1926,
+            "scale": 1,
+            "rotate-x": 50,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "doneByMe"
+    },
+    {
+        "uri": "3thanks.html",
+        "id": "thanks",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": 900,
+            "z": -200,
+            "scale": 1,
+            "rotate-x": -20,
+            "rotate-y": 0,
+            "rotate-z": 90
+        },
+        "next": "cover"
+    }
+]

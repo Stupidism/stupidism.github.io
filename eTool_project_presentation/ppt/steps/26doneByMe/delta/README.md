@@ -1,0 +1,40 @@
+    CModifiableBase.CModifiableBase[
+      newMod,
+      oldMod
+    ]: {
+      componentKeys.forEach(key){
+        if(keyisstrKey){
+          strList=mod.strComp(key),
+          if(newStrList!=oldStrList){
+            strComp(newStrList)
+          }
+        }else{
+          modList=mod.modifiables(key),
+          if(modList.hasIdentity()){
+            updateAttributeModList(modList): {
+              if(newModList!=oldModList){
+                modifiables(newModList)
+              }
+            }
+          }else{
+            modDict=modList.toDictionary(),
+            updateModDict(modDict): {
+              modDict.forEach(mod){
+                ctor=getConfigCtorByClass(key),
+                if(newMod){
+                  if(oldMod){
+                    ctor=getUpdateCtorByClass(key),
+                    mod=ctor.Invoke(update)
+                  }else{
+                    mod=ctor.Invoke(create)
+                  }
+                }else{
+                  mod=ctor.Invoke(delete)
+                },
+                addModifiable(mod)
+              }
+            }
+          }
+        }
+      }
+    }
