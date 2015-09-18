@@ -1,7 +1,7 @@
 用Impress.js制作的网页版PPT
 ### 用法:
 
-可选一 在线查看ppt 
+可选一 **在线查看**ppt  
 <http://stupidisum.github.io/docs/impresses/EToolPresentation/>  
 可能会因为获取google字体卡一会儿
 
