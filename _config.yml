@@ -1,0 +1,11 @@
+# Site settings
+title: Stupid's Home
+email: sunfeng32@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+  Stupid is good. Front-end engineer. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://stupidisum.github.io/" # the base hostname & protocol for your site
+github_username:  stupidisum
+
+# Build settings
+markdown: kramdown
