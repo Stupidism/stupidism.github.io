@@ -1,0 +1,124 @@
+{
+  "basics": {
+    "name": "Stupid Sun",
+    "label": "Programmer",
+    "picture": "https://lh3.googleusercontent.com/-YMjIFLqSmQU/AAAAAAAAAAI/AAAAAAAAABU/nEdLZ2ZjuI8/s120-c/photo.jpg",
+    "email": "sunfeng32@qq.com",
+    "phone": "(+86)15214365796",
+    "website": "https://github.com/stupidisum/",
+    "summary": "Stupid Sun wants to work in a challenging work environment to achieve personal and professional growth. Aim to use his knowledge and skills of software developing and utilize his passion for web-dev.",
+    "location": {
+      "address": "800, Dong Chuan Road",
+      "postalCode": "CN 200240",
+      "city": "Shanghai",
+      "countryCode": "CN",
+      "region": "Min Hang District"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "stupidism",
+        "url": "https://github.com/stupidisum/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ericsson Shanghai",
+      "position": "Intern",
+      "website": "http://www.ericsson.com/cn/",
+      "startDate": "2015-07-01",
+      "endDate": "2015-09-30",
+      "summary": "I develop an independent C# project in the first month. Then I joined the swift team. I fixed some bugs and improved a test program called WPST.",
+      "highlights": [
+        "Developed a software named ETool written in C# which was a language I never touched before. This tool is used to config EnodeBs , which are hardwares in communication base stations and is functioning well.",
+        "Fastest intern qualified to join a team."
+      ]
+    },
+    {
+      "company": "Shanghai Zhaimi Trading Co., Ltd",
+      "position": "Intern",
+      "website": "http://zhai.me/#/customer",
+      "startDate": "2015-10-14",
+      "endDate": "2016-1-30",
+      "summary": "Work as a front-end developer mainly in a project franky which is an operational system. Maintain the custom project's front-end part as well.",
+      "highlights": [
+        "Developed a code generator called generator-ng-zhaimi and common lib named zhaimi-common and used them to optimize the front-end framework of project franky as a pioneer for other projects."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "SJTU Software School Youth Volunteers",
+      "position": "Vice captain in last year",
+      "website": "http://page.renren.com/601523118?checked=true",
+      "startDate": "2012-09-01",
+      "endDate": "2014-07-01",
+      "summary": "Joined lots of activities as a volunteer and organized some as a vice captain",
+      "highlights": [
+        "Awarded 'Qingchun Qianxing China Dream' SJTU Summer Practice Advanced Individual and Outstanding Project 3rd Prize"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "area": "Software Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2012-09-01",
+      "endDate": "2016-07-01",
+      "gpa": "3.65",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "China Students Service Outsourcing Innovation & Entrepreneurship Competition Group Free Proposition(Group B) Second Prize",
+      "date": "2014-09-03",
+      "awarder": "Ministry of Education of the PRC, Ministry of Commerce of the PRC, Wuxi Municipal People's Government ",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Expert",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AngularJS",
+        "NodeJS"
+      ]
+    },
+    {
+      "name": "Computer Graphics",
+      "level": "Advanced",
+      "keywords": [
+        "OpenGL",
+        "Game-dev"
+      ]
+    },
+    {
+      "name": "Embedded Development",
+      "level": "Beginner",
+      "keywords": [
+        "Intelligent hardware",
+        "Arduino"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "ILR level-2 Limited Working Proficiency, which is fluent enough to handle most life and working situations."
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
