@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: https://gems.ruby-china.org/
   specs:
     RedCloth (4.2.9)
     activesupport (4.2.5)
@@ -143,4 +143,4 @@ DEPENDENCIES
   github-pages
 
 BUNDLED WITH
-   1.11.2
+   1.13.6
