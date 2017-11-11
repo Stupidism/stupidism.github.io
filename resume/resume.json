@@ -147,7 +147,7 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Expert",
+      "level": "Master",
       "keywords": [
         "ReactJS",
         "AngularJS",
@@ -168,7 +168,7 @@
     },
     {
       "name": "Product Prototype",
-      "level": "Skilled",
+      "level": "Advanced",
       "keywords": [
         "Balsamiq",
         "Interactive",
@@ -177,7 +177,7 @@
     },
     {
       "name": "Requirement Analysis",
-      "level": "Skilled",
+      "level": "Advanced",
       "keywords": [
         "Flow chart",
         "Data dictionary"
@@ -187,7 +187,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "ILR Level 3 – Professional working proficiency"
+      "fluency": "Fluent (ILR Level 3)"
     },
     {
       "language": "Chinese",
