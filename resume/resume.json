@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Stupid Sun",
+    "name": "Feng Sun",
     "label": "Front-end Engineer",
     "picture": "https://lh3.googleusercontent.com/-YMjIFLqSmQU/AAAAAAAAAAI/AAAAAAAAABU/nEdLZ2ZjuI8/s120-c/photo.jpg",
     "email": "sunfeng32@qq.com",
     "phone": "(+86)15214365796",
     "website": "https://github.com/stupidism/",
-    "summary": "Stupid Sun wants to work in a challenging work environment to achieve personal and professional growth. Aim to use his knowledge and skills of software developing and utilize his passion for web-dev.",
+    "summary": "Make things stupid enough for everyone.",
     "location": {
-      "address": "Room 402, No.2, 2201 Lane, Zuchongzhi Road",
-      "postalCode": "CN 200120",
+      "address": "Room 902, No.20, Lane 150, Yushui Road",
+      "postalCode": "CN 201210",
       "city": "Shanghai",
       "countryCode": "CN",
       "region": "Pudong New District"
@@ -17,27 +17,61 @@
     "profiles": [
       {
         "network": "Wechat",
-        "username": "司徒比特",
-        "url": "Stupidisum"
+        "username": "Stupidisum",
+        "url": ""
       },
       {
         "network": "Github",
         "username": "Stupidism",
         "url": "https://github.com/stupidism/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Stupid",
+        "url": "https://www.linkedin.com/in/%E9%80%A2-%E5%AD%99-819544b6/"
+      },
+      {
+        "network": "Facebook",
+        "username": "stupidism32",
+        "url": "https://www.facebook.com/stupidism32"
       }
     ]
   },
   "work": [
     {
-      "company": "Ericsson Shanghai",
-      "position": "Intern",
-      "website": "http://www.ericsson.com/cn/",
-      "startDate": "2015-07-01",
-      "endDate": "2015-10-03",
-      "summary": "I develop an independent C# project in the first month. Then I joined the swift team. I fixed some bugs and improved a test program called WPST.",
+      "company": "Clarity Movement Co.",
+      "position": "Senior Front-end Developer",
+      "website": "https://clarity.io/",
+      "startDate": "2017-03-14",
+      "endDate": "2018-03-14",
+      "summary": "Designed and implemented 2 front-end and 1 back-end projects. Analysed requirements for all the projects. In charge of Clarity's Shanghai software team in Shanghai Branch(云昉清上海软件科技有限公司).",
       "highlights": [
-        "Developed a software named ETool written in C# which was a language I never touched before. This tool is used to config EnodeBs , which are hardwares in communication base stations and is functioning well.",
-        "Fastest intern qualified to join a team."
+        "Implemented a back-end service with KoaJS(NodeJS) to provide API for one of my front-end projects.",
+        "Implemented a background webapp for technicians to deploy devices.",
+        "Visualized air quality data with echarts.",
+        "Visualized devices' aqi, location and other info with google-maps",
+        "Used UI libraries like material-ui, bootstrap and antd.",
+        "Used some other technologies like react-router, react-intl for different requirements. ",
+        "Drew flow charts with creately and wrote data dictionaries for some of the projects.",
+        "Designed interactive wire-framing prototype with balsamiq for some of the projects.",
+        "Developed and open-sourced a component library for reusage with storybook. (https://github.com/ClarityMovement/clarity-components)",
+        "Developed and open-sourced a component library starter with storybook.(https://github.com/Stupidism/stupid-rc-starter)"
+      ]
+    },
+    {
+      "company": "Clarity Movement Co.",
+      "position": "Contact, Front-end Developer",
+      "website": "https://clarity.io/",
+      "startDate": "2016-02-16",
+      "endDate": "2017-03-14",
+      "summary": "Developed 3 front-end projects and analysed requirements for all the projects.",
+      "highlights": [
+        "Developed a hardware version management webapp with AngularJS for our hardware developers.",
+        "Developed a IoT device management and virtualization webapp in ReactJS for our operators.",
+        "Developed a aqi-virtualization smart city webapp in ReactJS for our customers.",
+        "Developed 2 component libraries in ReactJS for the front-end team to re-use.",
+        "Developed a robotic-related and aqi smart home demo in ReactJS for a specific customer",
+        "Wrote many crawler scripts in NodeJS to crawl 3rd party aqi data."
       ]
     },
     {
@@ -46,20 +80,23 @@
       "website": "http://zhai.me/#/customer",
       "startDate": "2015-10-14",
       "endDate": "2016-02-15",
-      "summary": "Work as a front-end developer mainly in a project franky which is an operational system. Maintain the custom project's front-end part as well.",
+      "summary": "Worked as a front-end developer mainly in a project franky which is an operational system. Maintain the custom project's front-end part as well.",
       "highlights": [
         "Developed a code generator called generator-ng-zhaimi and common lib named zhaimi-common and used them to optimize the front-end framework of project franky as a pioneer for other projects.",
         "Got hundreds of downloads in npm. https://www.npmjs.com/package/generator-ng-zhaimi"
       ]
     },
     {
-      "company": "Clarity Movement Co.",
-      "position": "Front-end Developer",
-      "website": "https://clarity.io/",
-      "startDate": "2016-02-16",
-      "endDate": "2018-02-16",
-      "summary": "Take charge as chief",
-      "highlights": []
+      "company": "Ericsson Shanghai",
+      "position": "Intern",
+      "website": "http://www.ericsson.com/cn/",
+      "startDate": "2015-07-01",
+      "endDate": "2015-10-03",
+      "summary": "Developed an independent C# project in the first month, joined the 'Swift' team and fixed some bugs and improved a test program called WPST.",
+      "highlights": [
+        "Developed a software named ETool written in C# which was a language I never touched before. This tool is used to config EnodeBs , which are hardwares in communication base stations and is functioning well.",
+        "Fastest intern qualified to join a team."
+      ]
     }
   ],
   "volunteer": [
@@ -88,10 +125,22 @@
   ],
   "awards": [
     {
-      "title": "China Students Service Outsourcing Innovation & Entrepreneurship Competition Group Free Proposition(Group B) Second Prize",
+      "title": "China SSOIE Competition 2nd Prize",
       "date": "2014-09-03",
-      "awarder": "Ministry of Education of the PRC, Ministry of Commerce of the PRC, Wuxi Municipal People's Government ",
-      "summary": "There is no spoon."
+      "awarder": "MOE of China, MOC of China, Wuxi Government ",
+      "summary": "Led light coded transimition. 'SSOIE' for 'Student Service Outsourcing Innovation and Entrepreneurship'"
+    },
+    {
+      "title": "DoraHacks Fall Shanghai Hackathon First Prize",
+      "date": "2017-09-16",
+      "awarder": "DoraHacks",
+      "summary": "User profile for Maimai. Online demo: https://stupidism.github.io/user-profile-maimai/. Code: https://github.com/Stupidism/user-profile-maimai"
+    },
+    {
+      "title": "DoraHacks Fall Beijing Hackathon Second Prize",
+      "date": "2017-09-23",
+      "awarder": "DoraHacks",
+      "summary": "User profile for travel. No online demo. Code: https://github.com/Stupidism/user-profile-travel"
     }
   ],
   "publications": [],
@@ -105,28 +154,59 @@
         "Javascript",
         "HTML",
         "CSS",
-        "NodeJS"
+        "NodeJS",
+        "Webpack",
+        "create-react-app",
+        "material-ui",
+        "ant-design",
+        "bootstrap",
+        "KoaJS",
+        "echarts",
+        "google-maps",
+        "mapbox-gl"
       ]
     },
     {
-      "name": "Computer Graphics",
-      "level": "Advanced",
+      "name": "Product Prototype",
+      "level": "Skilled",
       "keywords": [
-        "OpenGL",
-        "Game-dev"
+        "Balsamiq",
+        "Interactive",
+        "Wire-framing"
+      ]
+    },
+    {
+      "name": "Requirement Analysis",
+      "level": "Skilled",
+      "keywords": [
+        "Flow chart",
+        "Data dictionary"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "ILR level-2 Limited Working Proficiency, which is fluent enough to handle most life and working situations."
+      "fluency": "ILR Level 3 – Professional working proficiency"
     },
     {
       "language": "Chinese",
       "fluency": "Native speaker"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Science Fiction",
+      "keywords": [
+        "Three Body"
+      ]
+    },
+    {
+      "name": "Board Games",
+      "keywords": [
+        "The Werewolves of Miller's Hollow"
+      ]
+    }
+  ],
   "references": []
 }
