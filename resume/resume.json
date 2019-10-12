@@ -46,14 +46,14 @@
         "Built a trackable workflow with branch-based test link and tag-based deploy strategy, and after that we didn't encounter even one P0 bug for more than 9 months.",
         "Analyze requirments with PMs and break down tasks for other front-end engineers for over 6 months",
         "Interviewed and hired two front-end engineers and mentored one of them for several months.",
-        "Enhance and keep test coverage over 95% for the whole project and educated team members to write UTs.",
+        "Enhanced and kept test coverage over 95% for the whole project and educated team members to write UTs.",
         "Built a component library of more than 22 business components with designers, and reused the components in more than 3 new pages later.",
         "Built a backend project to serve api.wework.cn before having backend engineers for it.",
         "Set up high code standards even before having any colleagues working on the same project.",
         "Refactored the project to a monorepo to extract out the components library and some other utilities for api, env and data.",
         "Adopted react-hooks to isolate logic and view right after the official release of it.",
         "Ran over 5 A/B tests with PMs and data engineers to roll up new features.",
-        "Helped our Test Engineer to set up an E2E test frame work with puppeteer.",
+        "Helped our Test Engineer to set up an E2E test framework with puppeteer.",
         "Proposed and implementing a new cross-team front-end architecture for another important CMS of wework china app after transfered to a new squad."
       ]
     },
@@ -126,7 +126,7 @@
       "startDate": "2018-05-17",
       "summary": "I started and operated a community winthin HQ of WeWork aiming to provide affordable, healthy and delicious lunch for evenry colleague",
       "highlights": [
-        "Got 220 wechat group members and 128 followers on wechat official group out of 600 employees in our HQ"
+        "Got 220 wechat group members and 128 followers on wechat official account out of 600 employees in our HQ"
       ]
     },
     {
