@@ -8,11 +8,8 @@
     "website": "https://github.com/stupidism/",
     "summary": "Make things stupid enough for everyone.",
     "location": {
-      "address": "Room 902, No.20, Lane 150, Yushui Road",
-      "postalCode": "CN 201210",
       "city": "Shanghai",
-      "countryCode": "CN",
-      "region": "Pudong New District"
+      "region": "Huangpu District"
     },
     "profiles": [
       {
@@ -38,6 +35,28 @@
     ]
   },
   "work": [
+    {
+      "company": "WeWork",
+      "position": "Front-end Engineer",
+      "website": "https://wework.cn/",
+      "startDate": "2018-04-23",
+      "summary": "Lead a team of 4 FEs to architect and implement WeWork's homepage with a trackable workflow",
+      "highlights": [
+        "Built current wework.cn from ground up after tooking the old one back from our contractors and reduced page load time from 12s to 3s.",
+        "Built a trackable workflow with branch-based test link and tag-based deploy strategy, and after that we didn't encounter even one P0 bug for more than 9 months.",
+        "Analyze requirments with PMs and break down tasks for other front-end engineers for over 6 months",
+        "Interviewed and hired two front-end engineers and mentored one of them for several months.",
+        "Enhance and keep test coverage over 95% for the whole project and educated team members to write UTs.",
+        "Built a component library of more than 22 business components with designers, and reused the components in more than 3 new pages later.",
+        "Built a backend project to serve api.wework.cn before having backend engineers for it.",
+        "Set up high code standards even before having any colleagues working on the same project.",
+        "Refactored the project to a monorepo to extract out the components library and some other utilities for api, env and data.",
+        "Adopted react-hooks to isolate logic and view right after the official release of it.",
+        "Ran over 5 A/B tests with PMs and data engineers to roll up new features.",
+        "Helped our Test Engineer to set up an E2E test frame work with puppeteer.",
+        "Proposed and implementing a new cross-team front-end architecture for another important CMS of wework china app after transfered to a new squad."
+      ]
+    },
     {
       "company": "Clarity Movement Co.",
       "position": "Senior Front-end Developer",
@@ -101,6 +120,16 @@
   ],
   "volunteer": [
     {
+      "organization": "WeLunch",
+      "position": "Founder",
+      "website": "https://welunch.cn",
+      "startDate": "2018-05-17",
+      "summary": "I started and operated a community winthin HQ of WeWork aiming to provide affordable, healthy and delicious lunch for evenry colleague",
+      "highlights": [
+        "Got 220 wechat group members and 128 followers on wechat official group out of 600 employees in our HQ"
+      ]
+    },
+    {
       "organization": "SJTU Software School Youth Volunteers",
       "position": "Vice Captain",
       "website": "http://page.renren.com/601523118?checked=true",
@@ -150,17 +179,25 @@
       "level": "Master",
       "keywords": [
         "ReactJS",
-        "AngularJS",
+        "react-hooks",
+        "Jest",
+        "Storybook",
         "Javascript",
+        "TypeScript",
+        "Nextjs",
+        "Puppeteer",
+        "GraphQL",
         "HTML",
         "CSS",
+        "ant-design",
         "NodeJS",
+        "Alicloud",
         "Webpack",
         "create-react-app",
         "material-ui",
-        "ant-design",
         "bootstrap",
         "KoaJS",
+        "AngularJS",
         "echarts",
         "google-maps",
         "mapbox-gl"
@@ -187,7 +224,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent (ILR Level 3)"
+      "fluency": "Fluent (ILR Level 4)"
     },
     {
       "language": "Chinese",
@@ -198,13 +235,23 @@
     {
       "name": "Science Fiction",
       "keywords": [
-        "Three Body"
+        "Three Body",
+        "Foundation"
       ]
     },
     {
       "name": "Board Games",
       "keywords": [
-        "The Werewolves of Miller's Hollow"
+        "The Werewolves of Miller's Hollow",
+        "Catan"
+      ]
+    },
+    {
+      "name": "US TV series",
+      "keywords": [
+        "Westworld",
+        "The Expanse",
+        "Rick and Morty"
       ]
     }
   ],

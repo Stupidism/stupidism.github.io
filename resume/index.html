@@ -356,10 +356,6 @@ h2.section-title {
     display: inline;
 }
 
-.award-item {
-    min-height: 30px;
-}
-
 .position,
 .studyType,
 .area,
@@ -644,7 +640,6 @@ ul.courses li:hover {
         font-size: 16px;
         content: '\f0da';
         font-family: Fontawesome;
-        margin-top: -3px;
     }
     .toggle-item~.item {
         height: 0;
@@ -789,11 +784,8 @@ ul.courses li:hover {
     		</div>
     		
     		<span class="location">
-    			<span class="address">Room 902, No.20, Lane 150, Yushui Road,</span> 
-    			<span class="postalCode">CN 201210,</span> 
     			<span class="city">Shanghai,</span> 
-    			<span class="region">Pudong New District</span> 
-    			<span class="countryCode">CN</span> 
+    			<span class="region">Huangpu District</span> 
     		</span>
     		
     
@@ -868,17 +860,25 @@ ul.courses li:hover {
     			</div>
     			<ul class="keywords">
     				<li>ReactJS</li>
-    				<li>AngularJS</li>
+    				<li>react-hooks</li>
+    				<li>Jest</li>
+    				<li>Storybook</li>
     				<li>Javascript</li>
+    				<li>TypeScript</li>
+    				<li>Nextjs</li>
+    				<li>Puppeteer</li>
+    				<li>GraphQL</li>
     				<li>HTML</li>
     				<li>CSS</li>
+    				<li>ant-design</li>
     				<li>NodeJS</li>
+    				<li>Alicloud</li>
     				<li>Webpack</li>
     				<li>create-react-app</li>
     				<li>material-ui</li>
-    				<li>ant-design</li>
     				<li>bootstrap</li>
     				<li>KoaJS</li>
+    				<li>AngularJS</li>
     				<li>echarts</li>
     				<li>google-maps</li>
     				<li>mapbox-gl</li>
@@ -917,7 +917,7 @@ ul.courses li:hover {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
       </header>
     
       <section id="work">
@@ -925,6 +925,43 @@ ul.courses li:hover {
     
             <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="work-item-0"></label>
+    
+    			<header>
+    				<div class="position">Front-end Engineer</div>
+    				<div class="company">WeWork</div>
+    				<div class="date">
+    				  <span class="startDate">April 2018</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://wework.cn/">https://wework.cn/</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Lead a team of 4 FEs to architect and implement WeWork's homepage with a trackable workflow</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Built current wework.cn from ground up after tooking the old one back from our contractors and reduced page load time from 12s to 3s.</p></li>
+                <li><p>Built a trackable workflow with branch-based test link and tag-based deploy strategy, and after that we didn't encounter even one P0 bug for more than 9 months.</p></li>
+                <li><p>Analyze requirments with PMs and break down tasks for other front-end engineers for over 6 months</p></li>
+                <li><p>Interviewed and hired two front-end engineers and mentored one of them for several months.</p></li>
+                <li><p>Enhance and keep test coverage over 95% for the whole project and educated team members to write UTs.</p></li>
+                <li><p>Built a component library of more than 22 business components with designers, and reused the components in more than 3 new pages later.</p></li>
+                <li><p>Built a backend project to serve api.wework.cn before having backend engineers for it.</p></li>
+                <li><p>Set up high code standards even before having any colleagues working on the same project.</p></li>
+                <li><p>Refactored the project to a monorepo to extract out the components library and some other utilities for api, env and data.</p></li>
+                <li><p>Adopted react-hooks to isolate logic and view right after the official release of it.</p></li>
+                <li><p>Ran over 5 A/B tests with PMs and data engineers to roll up new features.</p></li>
+                <li><p>Helped our Test Engineer to set up an E2E test frame work with puppeteer.</p></li>
+                <li><p>Proposed and implementing a new cross-team front-end architecture for another important CMS of wework china app after transfered to a new squad.</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
     
     			<header>
     				<div class="position">Senior Front-end Developer</div>
@@ -957,8 +994,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
-            <label for="work-item-1"></label>
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
     
     			<header>
     				<div class="position">Contact, Front-end Developer</div>
@@ -987,8 +1024,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-2" type="checkbox" class="toggle-item" />
-            <label for="work-item-2"></label>
+            <input id="work-item-3" type="checkbox" class="toggle-item" />
+            <label for="work-item-3"></label>
     
     			<header>
     				<div class="position">Intern Front-end Developer</div>
@@ -1013,8 +1050,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-3" type="checkbox" class="toggle-item" />
-            <label for="work-item-3"></label>
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
     
     			<header>
     				<div class="position">Intern</div>
@@ -1048,6 +1085,41 @@ ul.courses li:hover {
     
             <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="volunteer-item-0"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="position">
+                Founder
+              </div>
+              <div class="organization">
+                WeLunch
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              May 2018
+              </span>
+              <span class="endDate">
+              - Current
+              </span>
+            </div>
+          </header>
+          <div class="website">
+            <a target="_blank" href="https://welunch.cn">https://welunch.cn</a>
+          </div>
+          <div class="item">
+            <div class="summary">
+              <p><p>I started and operated a community winthin HQ of WeWork aiming to provide affordable, healthy and delicious lunch for evenry colleague</p></p>
+            </div>
+            <ul class="highlights">
+              <li><p>Got 220 wechat group members and 128 followers on wechat official group out of 600 employees in our HQ</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-1" type="checkbox" class="toggle-item" />
+            <label for="volunteer-item-1"></label>
     
           <header>
             <div class="header-left">
@@ -1209,8 +1281,8 @@ ul.courses li:hover {
             English
           </h3>
           <div class="item">
-            <div class="level fluency fluent (ilr level 3)">
-              <em>Fluent (ILR Level 3)</em>
+            <div class="level fluency fluent (ilr level 4)">
+              <em>Fluent (ILR Level 4)</em>
               <div class="bar"></div>
             </div>
           </div>
@@ -1239,6 +1311,7 @@ ul.courses li:hover {
           </h3>
           <ul class="keywords">
             <li>Three Body</li>
+            <li>Foundation</li>
           </ul>
         </div>
         <div class="item">
@@ -1247,6 +1320,17 @@ ul.courses li:hover {
           </h3>
           <ul class="keywords">
             <li>The Werewolves of Miller&#x27;s Hollow</li>
+            <li>Catan</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            US TV series
+          </h3>
+          <ul class="keywords">
+            <li>Westworld</li>
+            <li>The Expanse</li>
+            <li>Rick and Morty</li>
           </ul>
         </div>
       </section>
