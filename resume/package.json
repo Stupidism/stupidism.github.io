@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "resume serve",
+    "start": "resume serve --theme stackoverflow",
     "build": "resume export index.html --theme stackoverflow",
     "build:pdf": "resume export resume.pdf --format pdf --theme stackoverflow"
   },

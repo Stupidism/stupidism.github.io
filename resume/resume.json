@@ -6,7 +6,7 @@
     "email": "sunfeng32@qq.com",
     "phone": "(+86)15214365796",
     "website": "https://github.com/stupidism/",
-    "summary": "Make things stupid enough for everyone.",
+    "summary": "Make things stupid enough for everyone.\n中文简历: https://stupidism.github.io/resume-cn/",
     "location": {
       "city": "Shanghai",
       "region": "Huangpu District"
@@ -38,28 +38,43 @@
     {
       "company": "WeWork",
       "position": "Front-end Engineer",
+      "website": "https://spacestation.wework.cn/",
+      "startDate": "2019-09-01",
+      "summary": "Take ownership of a cross-team CMS project and re-architecture with mono-repo and micro-frontend",
+      "highlights": [
+        "Proposed a front-end architecture using mono-repo and micro-frontend to solve the maintainance problem caused by multi languages and multi teams",
+        "Communicated and cooperated with FE engineers and EMs in other 4 other teams to push the proposal",
+        "Merged multiple separate react repos into one big mono-repo to reduce effort of updating dev tools and publishing new versions",
+        "Adopted netlify for continious deployment and github actions to lint and test",
+        "Extracted pages written in Vue from the project to make a mono-repo for other teams to avoid confliction",
+        "Extracted some shared packages with single functions used in both vue and react mono repos, like api, i18n, env"
+      ]
+    },
+    {
+      "company": "WeWork",
+      "position": "Front-end Engineer",
       "website": "https://wework.cn/",
       "startDate": "2018-04-23",
+      "endDate": "2019-08-30",
       "summary": "Lead a team of 4 FEs to architect and implement WeWork's homepage with a trackable workflow",
       "highlights": [
         "Built current wework.cn from ground up after tooking the old one back from our contractors and reduced page load time from 12s to 3s.",
         "Built a trackable workflow with branch-based test link and tag-based deploy strategy, and after that we didn't encounter even one P0 bug for more than 9 months.",
         "Analyze requirments with PMs and break down tasks for other front-end engineers for over 6 months",
-        "Interviewed and hired two front-end engineers and mentored one of them for several months.",
+        "Interviewed 50+ and hired 2 front-end engineers and mentored one of them for several months.",
         "Enhanced and kept test coverage over 95% for the whole project and educated team members to write UTs.",
         "Built a component library of more than 22 business components with designers, and reused the components in more than 3 new pages later.",
         "Built a backend project to serve api.wework.cn before having backend engineers for it.",
         "Set up high code standards even before having any colleagues working on the same project.",
-        "Refactored the project to a monorepo to extract out the components library and some other utilities for api, env and data.",
+        "Refactored the project to a monorepo to separate code of the components library and some other utilities for api and env.",
         "Adopted react-hooks to isolate logic and view right after the official release of it.",
-        "Ran over 5 A/B tests with PMs and data engineers to roll up new features.",
-        "Helped our Test Engineer to set up an E2E test framework with puppeteer.",
-        "Proposed and implementing a new cross-team front-end architecture for another important CMS of wework china app after transfered to a new squad."
+        "Implemented A/B testing and ran over 5 tests with PMs and data engineers to roll up new features.",
+        "Helped our Test Engineer to set up an E2E test framework with puppeteer."
       ]
     },
     {
       "company": "Clarity Movement Co.",
-      "position": "Senior Front-end Developer",
+      "position": "Front-end Developer",
       "website": "https://clarity.io/",
       "startDate": "2017-03-14",
       "endDate": "2018-03-14",
@@ -175,32 +190,53 @@
   "publications": [],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Front-end Development",
       "level": "Master",
       "keywords": [
-        "ReactJS",
-        "react-hooks",
+        "React",
         "Jest",
         "Storybook",
-        "Javascript",
+        "styled-components",
         "TypeScript",
-        "Nextjs",
-        "Puppeteer",
-        "GraphQL",
-        "HTML",
-        "CSS",
         "ant-design",
-        "NodeJS",
-        "Alicloud",
-        "Webpack",
         "create-react-app",
         "material-ui",
         "bootstrap",
-        "KoaJS",
-        "AngularJS",
+        "Vue",
+        "Angular",
         "echarts",
         "google-maps",
         "mapbox-gl"
+      ]
+    },
+    {
+      "name": "Front-end Architecture",
+      "level": "Master",
+      "keywords": [
+        "Mono-repo",
+        "Micro-frontend",
+        "CircleCI",
+        "Github Actions",
+        "Netlify",
+        "Webpack",
+        "Babel",
+        "npm",
+        "lerna",
+        "aliyun",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "level": "advanced",
+      "keywords": [
+        "NodeJS",
+        "Nextjs",
+        "GraphQL",
+        "KoaJS",
+        "MongoDB",
+        "Mongoose",
+        "Redis"
       ]
     },
     {
@@ -218,6 +254,13 @@
       "keywords": [
         "Flow chart",
         "Data dictionary"
+      ]
+    },
+    {
+      "name": "Product Operation",
+      "level": "advanced",
+      "keywords": [
+        "WeChat Official Account"
       ]
     }
   ],

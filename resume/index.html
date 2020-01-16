@@ -344,6 +344,10 @@ h2.section-title {
     opacity: 0;
 }
 
+.award-item {
+    min-height: 30px;
+}
+
 .position,
 .company,
 .organization,
@@ -840,7 +844,7 @@ ul.courses li:hover {
     
     	<section class="section main-summary">
     		<section>
-    			<div><p>Make things stupid enough for everyone.</p></div>
+    			<div><p>Make things stupid enough for everyone.</p><p>中文简历: https://stupidism.github.io/resume-cn/</p></div>
     		</section>
     	</section>
     
@@ -851,7 +855,7 @@ ul.courses li:hover {
     	<section id="skills">
     		<div class="item">
     			<h3 class="name">
-    				Web Development
+    				Front-end Development
     			</h3>
     			 
     			<div class="level master">
@@ -859,29 +863,62 @@ ul.courses li:hover {
     				<div class="bar"></div>
     			</div>
     			<ul class="keywords">
-    				<li>ReactJS</li>
-    				<li>react-hooks</li>
+    				<li>React</li>
     				<li>Jest</li>
     				<li>Storybook</li>
-    				<li>Javascript</li>
+    				<li>styled-components</li>
     				<li>TypeScript</li>
-    				<li>Nextjs</li>
-    				<li>Puppeteer</li>
-    				<li>GraphQL</li>
-    				<li>HTML</li>
-    				<li>CSS</li>
     				<li>ant-design</li>
-    				<li>NodeJS</li>
-    				<li>Alicloud</li>
-    				<li>Webpack</li>
     				<li>create-react-app</li>
     				<li>material-ui</li>
     				<li>bootstrap</li>
-    				<li>KoaJS</li>
-    				<li>AngularJS</li>
+    				<li>Vue</li>
+    				<li>Angular</li>
     				<li>echarts</li>
     				<li>google-maps</li>
     				<li>mapbox-gl</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Front-end Architecture
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Mono-repo</li>
+    				<li>Micro-frontend</li>
+    				<li>CircleCI</li>
+    				<li>Github Actions</li>
+    				<li>Netlify</li>
+    				<li>Webpack</li>
+    				<li>Babel</li>
+    				<li>npm</li>
+    				<li>lerna</li>
+    				<li>aliyun</li>
+    				<li>Docker</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Back-end Development
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>NodeJS</li>
+    				<li>Nextjs</li>
+    				<li>GraphQL</li>
+    				<li>KoaJS</li>
+    				<li>MongoDB</li>
+    				<li>Mongoose</li>
+    				<li>Redis</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -913,11 +950,24 @@ ul.courses li:hover {
     				<li>Data dictionary</li>
     			</ul>
     		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Product Operation
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>WeChat Official Account</li>
+    			</ul>
+    		</div>
     	</section>
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
+        <h2 class='section-title'>Work Experience <span class="item-count">(6)</span></h2>
       </header>
     
       <section id="work">
@@ -930,8 +980,38 @@ ul.courses li:hover {
     				<div class="position">Front-end Engineer</div>
     				<div class="company">WeWork</div>
     				<div class="date">
-    				  <span class="startDate">April 2018</span> 
+    				  <span class="startDate">September 2019</span> 
     					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://spacestation.wework.cn/">https://spacestation.wework.cn/</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Take ownership of a cross-team CMS project and re-architecture with mono-repo and micro-frontend</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Proposed a front-end architecture using mono-repo and micro-frontend to solve the maintainance problem caused by multi languages and multi teams</p></li>
+                <li><p>Communicated and cooperated with FE engineers and EMs in other 4 other teams to push the proposal</p></li>
+                <li><p>Merged multiple separate react repos into one big mono-repo to reduce effort of updating dev tools and publishing new versions</p></li>
+                <li><p>Adopted netlify for continious deployment and github actions to lint and test</p></li>
+                <li><p>Extracted pages written in Vue from the project to make a mono-repo for other teams to avoid confliction</p></li>
+                <li><p>Extracted some shared packages with single functions used in both vue and react mono repos, like api, i18n, env</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
+    				<div class="position">Front-end Engineer</div>
+    				<div class="company">WeWork</div>
+    				<div class="date">
+    				  <span class="startDate">April 2018</span> 
+    					<span class="endDate">- August 2019</span> 
     				</div>
     			</header>
     			
@@ -945,26 +1025,25 @@ ul.courses li:hover {
                 <li><p>Built current wework.cn from ground up after tooking the old one back from our contractors and reduced page load time from 12s to 3s.</p></li>
                 <li><p>Built a trackable workflow with branch-based test link and tag-based deploy strategy, and after that we didn't encounter even one P0 bug for more than 9 months.</p></li>
                 <li><p>Analyze requirments with PMs and break down tasks for other front-end engineers for over 6 months</p></li>
-                <li><p>Interviewed and hired two front-end engineers and mentored one of them for several months.</p></li>
+                <li><p>Interviewed 50+ and hired 2 front-end engineers and mentored one of them for several months.</p></li>
                 <li><p>Enhanced and kept test coverage over 95% for the whole project and educated team members to write UTs.</p></li>
                 <li><p>Built a component library of more than 22 business components with designers, and reused the components in more than 3 new pages later.</p></li>
                 <li><p>Built a backend project to serve api.wework.cn before having backend engineers for it.</p></li>
                 <li><p>Set up high code standards even before having any colleagues working on the same project.</p></li>
-                <li><p>Refactored the project to a monorepo to extract out the components library and some other utilities for api, env and data.</p></li>
+                <li><p>Refactored the project to a monorepo to separate code of the components library and some other utilities for api and env.</p></li>
                 <li><p>Adopted react-hooks to isolate logic and view right after the official release of it.</p></li>
-                <li><p>Ran over 5 A/B tests with PMs and data engineers to roll up new features.</p></li>
+                <li><p>Implemented A/B testing and ran over 5 tests with PMs and data engineers to roll up new features.</p></li>
                 <li><p>Helped our Test Engineer to set up an E2E test framework with puppeteer.</p></li>
-                <li><p>Proposed and implementing a new cross-team front-end architecture for another important CMS of wework china app after transfered to a new squad.</p></li>
             </ul>
         	</div>
         </section>
         <section class="work-item">
     
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
-            <label for="work-item-1"></label>
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
     
     			<header>
-    				<div class="position">Senior Front-end Developer</div>
+    				<div class="position">Front-end Developer</div>
     				<div class="company">Clarity Movement Co.</div>
     				<div class="date">
     				  <span class="startDate">March 2017</span> 
@@ -994,8 +1073,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-2" type="checkbox" class="toggle-item" />
-            <label for="work-item-2"></label>
+            <input id="work-item-3" type="checkbox" class="toggle-item" />
+            <label for="work-item-3"></label>
     
     			<header>
     				<div class="position">Contact, Front-end Developer</div>
@@ -1024,8 +1103,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-3" type="checkbox" class="toggle-item" />
-            <label for="work-item-3"></label>
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
     
     			<header>
     				<div class="position">Intern Front-end Developer</div>
@@ -1050,8 +1129,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-4" type="checkbox" class="toggle-item" />
-            <label for="work-item-4"></label>
+            <input id="work-item-5" type="checkbox" class="toggle-item" />
+            <label for="work-item-5"></label>
     
     			<header>
     				<div class="position">Intern</div>
