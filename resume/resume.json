@@ -6,7 +6,7 @@
     "email": "sunfeng32@qq.com",
     "phone": "(+86)15214365796",
     "website": "https://github.com/stupidism/",
-    "summary": "Make things stupid enough for everyone.\n中文简历: https://stupidism.github.io/resume-cn/",
+    "summary": "Make things stupid enough for everyone. 中文简历地址: https://stupidism.github.io/resume-cn/",
     "location": {
       "city": "Shanghai",
       "region": "Huangpu District"
@@ -38,74 +38,33 @@
     {
       "company": "WeWork",
       "position": "Front-end Engineer",
-      "website": "https://spacestation.wework.cn/",
-      "startDate": "2019-09-01",
-      "summary": "Take ownership of a cross-team CMS project and re-architecture with mono-repo and micro-frontend",
-      "highlights": [
-        "Proposed a front-end architecture using mono-repo and micro-frontend to solve the maintainance problem caused by multi languages and multi teams",
-        "Communicated and cooperated with FE engineers and EMs in other 4 other teams to push the proposal",
-        "Merged multiple separate react repos into one big mono-repo to reduce effort of updating dev tools and publishing new versions",
-        "Adopted netlify for continious deployment and github actions to lint and test",
-        "Extracted pages written in Vue from the project to make a mono-repo for other teams to avoid confliction",
-        "Extracted some shared packages with single functions used in both vue and react mono repos, like api, i18n, env"
-      ]
-    },
-    {
-      "company": "WeWork",
-      "position": "Front-end Engineer",
       "website": "https://wework.cn/",
       "startDate": "2018-04-23",
-      "endDate": "2019-08-30",
-      "summary": "Lead a team of 4 FEs to architect and implement WeWork's homepage with a trackable workflow",
+      "summary": "[Team1] Lead a team of 4 FEs for wework.cn. [Team2] Re-architecture a multi-team-and-multi-framework CMS project.",
       "highlights": [
-        "Built current wework.cn from ground up after tooking the old one back from our contractors and reduced page load time from 12s to 3s.",
-        "Built a trackable workflow with branch-based test link and tag-based deploy strategy, and after that we didn't encounter even one P0 bug for more than 9 months.",
+        "[Team1] Re-built wework.cn, recruited 3 FEs, lead 2 big revisions",
+        "[Team2] Proposed a new architecture using mono-repo and micro-frontend to solve the maintainance problems caused by multi languages and multi teams",
+        "Enhanced and kept test coverage over 95%.",
         "Analyze requirments with PMs and break down tasks for other front-end engineers for over 6 months",
-        "Interviewed 50+ and hired 2 front-end engineers and mentored one of them for several months.",
-        "Enhanced and kept test coverage over 95% for the whole project and educated team members to write UTs.",
-        "Built a component library of more than 22 business components with designers, and reused the components in more than 3 new pages later.",
-        "Built a backend project to serve api.wework.cn before having backend engineers for it.",
-        "Set up high code standards even before having any colleagues working on the same project.",
-        "Refactored the project to a monorepo to separate code of the components library and some other utilities for api and env.",
-        "Adopted react-hooks to isolate logic and view right after the official release of it.",
+        "Built a component library of more than 22 business components with designers.",
+        "Adopted new techs like styled-components, react-hooks, puppeteer, mono-repo, netlify, github actions, etc",
         "Implemented A/B testing and ran over 5 tests with PMs and data engineers to roll up new features.",
-        "Helped our Test Engineer to set up an E2E test framework with puppeteer."
+        "Designed a trackable workflow with branch-based test link and tag-based deploy strategy",
+        "Communicated and cooperated with FE engineers and EMs in other 4 other teams to push the proposal"
       ]
     },
     {
       "company": "Clarity Movement Co.",
       "position": "Front-end Developer",
       "website": "https://clarity.io/",
-      "startDate": "2017-03-14",
-      "endDate": "2018-03-14",
-      "summary": "Designed and implemented 2 front-end and 1 back-end projects. Analysed requirements for all the projects. In charge of Clarity's Shanghai software team in Shanghai Branch(云昉清上海软件科技有限公司).",
-      "highlights": [
-        "Implemented a back-end service with KoaJS(NodeJS) to provide API for one of my front-end projects.",
-        "Implemented a background webapp for technicians to deploy devices.",
-        "Visualized air quality data with echarts.",
-        "Visualized devices' aqi, location and other info with google-maps",
-        "Used UI libraries like material-ui, bootstrap and antd.",
-        "Used some other technologies like react-router, react-intl for different requirements. ",
-        "Drew flow charts with creately and wrote data dictionaries for some of the projects.",
-        "Designed interactive wire-framing prototype with balsamiq for some of the projects.",
-        "Developed and open-sourced a component library for reusage with storybook. (https://github.com/ClarityMovement/clarity-components)",
-        "Developed and open-sourced a component library starter with storybook.(https://github.com/Stupidism/stupid-rc-starter)"
-      ]
-    },
-    {
-      "company": "Clarity Movement Co.",
-      "position": "Contact, Front-end Developer",
-      "website": "https://clarity.io/",
       "startDate": "2016-02-16",
-      "endDate": "2017-03-14",
-      "summary": "Developed 3 front-end projects and analysed requirements for all the projects.",
+      "endDate": "2018-03-14",
+      "summary": "Work as the only front-end engineer and mainly develop data virtualization websites",
       "highlights": [
-        "Developed a hardware version management webapp with AngularJS for our hardware developers.",
-        "Developed a IoT device management and virtualization webapp in ReactJS for our operators.",
-        "Developed a aqi-virtualization smart city webapp in ReactJS for our customers.",
-        "Developed 2 component libraries in ReactJS for the front-end team to re-use.",
-        "Developed a robotic-related and aqi smart home demo in ReactJS for a specific customer",
-        "Wrote many crawler scripts in NodeJS to crawl 3rd party aqi data."
+        "Visualized air quality data with echarts and google-maps and used UI libraries like echarts, material-ui, bootstrap and antd.",
+        "Designed interactive wire-framing prototype with balsamiq for some of the projects.",
+        "Wrote many crawler scripts in NodeJS to crawl 3rd party aqi data.",
+        "Open-sourced a component lib, a test util and a starter."
       ]
     },
     {
@@ -114,10 +73,9 @@
       "website": "http://zhai.me/#/customer",
       "startDate": "2015-10-14",
       "endDate": "2016-02-15",
-      "summary": "Worked as a front-end developer mainly in a project franky which is an operational system. Maintain the custom project's front-end part as well.",
+      "summary": "Developed and maintained an operational website written in AngularJS.",
       "highlights": [
-        "Developed a code generator called generator-ng-zhaimi and common lib named zhaimi-common and used them to optimize the front-end framework of project franky as a pioneer for other projects.",
-        "Got hundreds of downloads in npm. https://www.npmjs.com/package/generator-ng-zhaimi"
+        "Developed a code generator and common lib and used them to optimize the project."
       ]
     },
     {
@@ -126,9 +84,9 @@
       "website": "http://www.ericsson.com/cn/",
       "startDate": "2015-07-01",
       "endDate": "2015-10-03",
-      "summary": "Developed an independent C# project in the first month, joined the 'Swift' team and fixed some bugs and improved a test program called WPST.",
+      "summary": "Developed a C# project, fix bugs and write tests in a team.",
       "highlights": [
-        "Developed a software named ETool written in C# which was a language I never touched before. This tool is used to config EnodeBs , which are hardwares in communication base stations and is functioning well.",
+        "Self-learn C# and use it in the project. Finished the 2-intern-and-2-month project alone in 1 month.",
         "Fastest intern qualified to join a team."
       ]
     }
@@ -138,10 +96,10 @@
       "organization": "WeLunch",
       "position": "Founder",
       "website": "https://welunch.cn",
-      "startDate": "2018-05-17",
+      "startDate": "2019-05-17",
       "summary": "I started and operated a community winthin HQ of WeWork aiming to provide affordable, healthy and delicious lunch for evenry colleague",
       "highlights": [
-        "Got 220 wechat group members and 128 followers on wechat official account out of 600 employees in our HQ"
+        "Got about 220 welunch members out of 600 employees in our HQ. Got about 20 orders per day"
       ]
     },
     {
@@ -150,9 +108,10 @@
       "website": "http://page.renren.com/601523118?checked=true",
       "startDate": "2012-09-01",
       "endDate": "2014-07-01",
-      "summary": "Joined lots of activities as a volunteer and organized some as a vice captain",
+      "summary": "Joined activities as a volunteer and organized some as a vice captain",
       "highlights": [
-        "Awarded 'Qingchun Qianxing China Dream' SJTU Summer Practice Advanced Individual and Outstanding Project 3rd Prize"
+        "Organize and give 'Interest Lessons' to a middle school near SJTU",
+        "Helped elders in a community to solve computer problems"
       ]
     }
   ],
@@ -173,18 +132,6 @@
       "date": "2014-09-03",
       "awarder": "MOE of China, MOC of China, Wuxi Government ",
       "summary": "Led light coded transimition. 'SSOIE' for 'Student Service Outsourcing Innovation and Entrepreneurship'"
-    },
-    {
-      "title": "DoraHacks Fall Shanghai Hackathon First Prize",
-      "date": "2017-09-16",
-      "awarder": "DoraHacks",
-      "summary": "User profile for Maimai. Online demo: https://stupidism.github.io/user-profile-maimai/. Code: https://github.com/Stupidism/user-profile-maimai"
-    },
-    {
-      "title": "DoraHacks Fall Beijing Hackathon Second Prize",
-      "date": "2017-09-23",
-      "awarder": "DoraHacks",
-      "summary": "User profile for travel. No online demo. Code: https://github.com/Stupidism/user-profile-travel"
     }
   ],
   "publications": [],
@@ -197,16 +144,8 @@
         "Jest",
         "Storybook",
         "styled-components",
-        "TypeScript",
-        "ant-design",
         "create-react-app",
-        "material-ui",
-        "bootstrap",
-        "Vue",
-        "Angular",
-        "echarts",
-        "google-maps",
-        "mapbox-gl"
+        "Vue"
       ]
     },
     {
@@ -215,52 +154,22 @@
       "keywords": [
         "Mono-repo",
         "Micro-frontend",
-        "CircleCI",
         "Github Actions",
-        "Netlify",
         "Webpack",
         "Babel",
-        "npm",
-        "lerna",
-        "aliyun",
+        "Aliyun",
         "Docker"
       ]
     },
     {
       "name": "Back-end Development",
-      "level": "advanced",
+      "level": "Advanced",
       "keywords": [
         "NodeJS",
         "Nextjs",
-        "GraphQL",
         "KoaJS",
         "MongoDB",
-        "Mongoose",
-        "Redis"
-      ]
-    },
-    {
-      "name": "Product Prototype",
-      "level": "Advanced",
-      "keywords": [
-        "Balsamiq",
-        "Interactive",
-        "Wire-framing"
-      ]
-    },
-    {
-      "name": "Requirement Analysis",
-      "level": "Advanced",
-      "keywords": [
-        "Flow chart",
-        "Data dictionary"
-      ]
-    },
-    {
-      "name": "Product Operation",
-      "level": "advanced",
-      "keywords": [
-        "WeChat Official Account"
+        "Mongoose"
       ]
     }
   ],
@@ -285,7 +194,7 @@
     {
       "name": "Board Games",
       "keywords": [
-        "The Werewolves of Miller's Hollow",
+        "The Werewolves",
         "Catan"
       ]
     },
@@ -293,7 +202,6 @@
       "name": "US TV series",
       "keywords": [
         "Westworld",
-        "The Expanse",
         "Rick and Morty"
       ]
     }
