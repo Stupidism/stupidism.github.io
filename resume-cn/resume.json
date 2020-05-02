@@ -36,6 +36,12 @@
   },
   "work": [
     {
+      "company": "拼多多",
+      "position": "前端工程师",
+      "startDate": "2020-04-03",
+      "summary": "负责一个基于 ES 的存储工具的管理后台, 主要做需求分析和前端开发"
+    },
+    {
       "company": "WeWork",
       "position": "前端工程师",
       "website": "https://wework.cn/",

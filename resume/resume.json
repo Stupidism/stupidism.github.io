@@ -36,9 +36,15 @@
   },
   "work": [
     {
-      "company": "WeWork",
+      "company": "Pinduoduo",
       "position": "Front-end Engineer",
       "website": "https://wework.cn/",
+      "startDate": "2020-04-03",
+      "summary": "Admin web for a storage tool based on elastic search"
+    },
+    {
+      "company": "WeWork",
+      "position": "Front-end Engineer",
       "startDate": "2018-04-23",
       "summary": "[Team1] Lead a team of 4 FEs for wework.cn. [Team2] Re-architecture a multi-team-and-multi-framework CMS project.",
       "highlights": [
