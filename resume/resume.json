@@ -2,11 +2,11 @@
   "basics": {
     "name": "Feng Sun",
     "label": "Front-end Engineer",
-    "picture": "https://tvax1.sinaimg.cn/crop.0.1.750.750.180/e31913f7ly8fleehx94djj20ku0kwaay.jpg",
+    "picture": "https://tvax3.sinaimg.cn/crop.85.34.857.857.180/e31913f7ly8glsg9ijxb0j20u016wtbi.jpg",
     "email": "sunfeng32@qq.com",
     "phone": "(+86)15214365796",
     "website": "https://github.com/stupidism/",
-    "summary": "Make things stupid enough for everyone. 中文简历地址: https://stupidism.github.io/resume-cn/",
+    "summary": "Great wisdom is stupid, great skill is clumsy. 中文简历地址: https://stupidism.github.io/resume-cn/",
     "location": {
       "city": "Shanghai",
       "region": "Huangpu District"
@@ -38,25 +38,35 @@
     {
       "company": "Pinduoduo",
       "position": "Front-end Engineer",
-      "website": "https://wework.cn/",
+      "website": "https://www.pinduoduo.com/",
       "startDate": "2020-04-03",
-      "summary": "Admin web for a storage tool based on elastic search"
+      "summary": "Developed five front-end projects(1 in Vue, 4 in React) for three business groups as a dedicated FE for the Storage-Infra team. Built some DevOps and engineering work as a member of the Admin-FE team",
+      "highlights": [
+        "Took over an old data service platform, which combines storage, conversion, validation, and searching functionalities in one for data. Reduced operation human-cost from 3 down to 1 with the collaboration of BE by analyzing pain points of functionality and usability, re-identifying the core concept, re-designed pages, and standardized all the forms for the old project.",
+        "Participated in building two (user-end and ops-end) web apps for a new data-searching service platform from scratch, which is the new version for search part of the above old platform), including analyzing requirement, designing the prototype, designing data structure and API, developing web-app, building DevOps and writing the manual book.",
+        "Written a SQL editor based on monaco-editor to fulfill highlights, auto-completion, syntax validation and metadata parse for the SQL dialect in the above search platform.",
+        "Built a monorepo inside my FE team and built four projects of mine and three of other two team members to easily share code for DevOps tools, code generators, components, hooks, app layout, API definitions, TypeScript types, etc.",
+        "Written a component code generator written in TypeScript based on @angular/schematics in the above monorepo, which can generate the list, form, modal form, detail, select, status tag and other types of components and API hooks.",
+        "Creatively split a component as export, type, render, logic hook, style and constant types of files, mainly to separate business logic and rendering structure in the above component generator so that even new graduates can write nice code inside the framework, which would be easy to read, debug, refactor and test and be with good performance.",
+        "Written an API hook library based on useSWR and axios-hooks, aiming to separate code for backend API definitions and front projects, with which developers only need 1 line of API-hook code to call the API and get the return value and metadata with TypeScript types.",
+        "Developing the web app for a new admin platform for ElasticSearch, which is the new version for ElasticSearch storage part of the above old platform." 
+      ]
     },
     {
       "company": "WeWork",
-      "position": "Front-end Engineer",
+      "position": "Software Engineer II",
       "startDate": "2018-04-23",
       "summary": "[Team1] Lead a team of 4 FEs for wework.cn. [Team2] Re-architecture a multi-team-and-multi-framework CMS project.",
       "highlights": [
         "[Team1] Re-built wework.cn, recruited 3 FEs, lead 2 big revisions",
-        "[Team2] Proposed a new architecture using mono-repo and micro-frontend to solve the maintainance problems caused by multi languages and multi teams",
+        "[Team2] Proposed a new architecture using mono-repo and micro-frontend to solve the maintenance problems caused by multi-languages and multi teams",
         "Enhanced and kept test coverage over 95%.",
-        "Analyze requirments with PMs and break down tasks for other front-end engineers for over 6 months",
+        "Analyze requirements with PMs and break down tasks for other front-end engineers for over six months.",
         "Built a component library of more than 22 business components with designers.",
-        "Adopted new techs like styled-components, react-hooks, puppeteer, mono-repo, netlify, github actions, etc",
-        "Implemented A/B testing and ran over 5 tests with PMs and data engineers to roll up new features.",
-        "Designed a trackable workflow with branch-based test link and tag-based deploy strategy",
-        "Communicated and cooperated with FE engineers and EMs in other 4 other teams to push the proposal"
+        "Adopted new techs like styled-components, react-hooks, puppeteer, mono-repo, Netlify, Github actions, etc.",
+        "Implemented A/B testing and ran over five tests with PMs and data engineers to roll up new features.",
+        "Designed a trackable workflow with branch-based test link and tag-based deploy strategy.",
+        "Communicated and cooperated with FE engineers and EMs in other four other teams to push the proposal."
       ]
     },
     {
@@ -65,12 +75,12 @@
       "website": "https://clarity.io/",
       "startDate": "2016-02-16",
       "endDate": "2018-03-14",
-      "summary": "Work as the only front-end engineer and mainly develop data virtualization websites",
+      "summary": "Work as the only front-end engineer and mainly develop data virtualization websites.",
       "highlights": [
-        "Visualized air quality data with echarts and google-maps and used UI libraries like echarts, material-ui, bootstrap and antd.",
-        "Designed interactive wire-framing prototype with balsamiq for some of the projects.",
-        "Wrote many crawler scripts in NodeJS to crawl 3rd party aqi data.",
-        "Open-sourced a component lib, a test util and a starter."
+        "Visualized air quality data with echarts and google-maps and used UI libraries like echarts, material-ui, bootstrap, and antd.",
+        "Designed interactive wire-framing prototype with Balsamiq for some of the projects.",
+        "Wrote many crawler scripts in NodeJS to crawl 3rd party AQI data.",
+        "Open-sourced a component lib, a test util, and a starter."
       ]
     },
     {
@@ -103,9 +113,10 @@
       "position": "Founder",
       "website": "https://welunch.cn",
       "startDate": "2019-05-17",
-      "summary": "I started and operated a community winthin HQ of WeWork aiming to provide affordable, healthy and delicious lunch for evenry colleague",
+      "summary": "I started and operated a community within HQ of WeWork aiming to provide affordable, healthy and delicious lunch for every colleague.",
       "highlights": [
-        "Got about 220 welunch members out of 600 employees in our HQ. Got about 20 orders per day"
+        "Got about 220 WeLunch members out of 600 employees in our HQ. Got about 20 orders per day",
+        "Still running healthily nearly one year after my resignation."
       ]
     },
     {
@@ -114,10 +125,10 @@
       "website": "http://page.renren.com/601523118?checked=true",
       "startDate": "2012-09-01",
       "endDate": "2014-07-01",
-      "summary": "Joined activities as a volunteer and organized some as a vice captain",
+      "summary": "Joined activities as a volunteer and organized some as a vice-captain.",
       "highlights": [
-        "Organize and give 'Interest Lessons' to a middle school near SJTU",
-        "Helped elders in a community to solve computer problems"
+        "Organize and give 'Interest Lessons' to a middle school near SJTU.",
+        "Helped elders in a community to solve computer problems."
       ]
     }
   ],
@@ -147,10 +158,12 @@
       "level": "Master",
       "keywords": [
         "React",
+        "TypeScript",
         "Jest",
         "Storybook",
         "styled-components",
         "create-react-app",
+        "antd",
         "Vue"
       ]
     },
@@ -159,11 +172,11 @@
       "level": "Master",
       "keywords": [
         "Mono-repo",
-        "Micro-frontend",
         "Github Actions",
         "Webpack",
         "Babel",
         "Aliyun",
+        "Micro-frontend",
         "Docker"
       ]
     },
@@ -191,17 +204,17 @@
   ],
   "interests": [
     {
+      "name": "Politics and History",
+      "keywords": [
+        "The Key 100 Wars in Chinese Feudal History",
+        "政事堂 Political Affairs Hall"
+      ]
+    },
+    {
       "name": "Science Fiction",
       "keywords": [
         "Three Body",
         "Foundation"
-      ]
-    },
-    {
-      "name": "Board Games",
-      "keywords": [
-        "The Werewolves",
-        "Catan"
       ]
     },
     {
