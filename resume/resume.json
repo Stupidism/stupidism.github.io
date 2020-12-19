@@ -6,7 +6,7 @@
     "email": "sunfeng32@qq.com",
     "phone": "(+86)15214365796",
     "website": "https://github.com/stupidism/",
-    "summary": "Great wisdom is stupid, great skill is clumsy. 中文简历地址: https://stupidism.github.io/resume-cn/",
+    "summary": "Great wisdom looks stupid, great skill seems clumsy. 中文简历地址: https://stupidism.github.io/resume-cn/",
     "location": {
       "city": "Shanghai",
       "region": "Huangpu District"
@@ -204,13 +204,6 @@
   ],
   "interests": [
     {
-      "name": "Politics and History",
-      "keywords": [
-        "The Key 100 Wars in Chinese Feudal History",
-        "政事堂 Political Affairs Hall"
-      ]
-    },
-    {
       "name": "Science Fiction",
       "keywords": [
         "Three Body",
@@ -222,6 +215,13 @@
       "keywords": [
         "Westworld",
         "Rick and Morty"
+      ]
+    },
+    {
+      "name": "Politics and History",
+      "keywords": [
+        "The Key 100 Wars in Chinese Feudal History",
+        "政事堂 Political Affairs Hall"
       ]
     }
   ],
