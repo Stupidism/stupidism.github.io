@@ -27,10 +27,24 @@
   },
   "work": [
     {
+      "company": "Jerry",
+      "position": "Senior Front-end Engineer",
+      "website": "https://www.getjerry.com/",
+      "startDate": "2021-02-02",
+      "summary": "Working on SEO&Content team.",
+      "highlights": [
+        "Collabrated with design team to refine process with design system and component library with Atomic design pattern to solve the problem of miscommunication between engineers and designers caused by distance and languages",
+        "Introduced a headless CMS to replace the old self-developed CMS for content team to optimzie UX of editors and separate hard-coded and mixed content and design",
+        "Implemented feature-based env deployment with DevOps Team to solve the problem of increasing deployment conflicting on single stage env",
+        "Written a FE code convention to align code style in all FE apps https://github.com/Stupidism/stupic"
+      ]
+    },
+    {
       "company": "Pinduoduo",
       "position": "Front-end Engineer",
       "website": "https://www.pinduoduo.com/",
       "startDate": "2020-04-03",
+      "endDate": "2021-01-18",
       "summary": "Developed five front-end projects(1 in Vue, 4 in React) for three business groups as a dedicated FE for the Storage-Infra team. Built some DevOps and engineering work as a member of the Admin-FE team",
       "highlights": [
         "Took over an old data service platform, which combines storage, conversion, validation, and searching functionalities in one for data. Reduced operation human-cost from 3 down to 1 with the collaboration of BE by analyzing pain points of functionality and usability, re-identifying the core concept, re-designed pages, and standardized all the forms for the old project.",
@@ -40,12 +54,13 @@
         "Written a component code generator written in TypeScript based on @angular/schematics in the above monorepo, which can generate the list, form, modal form, detail, select, status tag and other types of components and API hooks.",
         "Creatively split a component as export, type, render, logic hook, style and constant types of files, mainly to separate business logic and rendering structure in the above component generator so that even new graduates can write nice code inside the framework, which would be easy to read, debug, refactor and test and be with good performance.",
         "Written an API hook library based on useSWR and axios-hooks, aiming to separate code for backend API definitions and front projects, with which developers only need 1 line of API-hook code to call the API and get the return value and metadata with TypeScript types.",
-        "Developing the web app for a new admin platform for ElasticSearch, which is the new version for ElasticSearch storage part of the above old platform." 
+        "Developing the web app for a new admin platform for ElasticSearch, which is the new version for ElasticSearch storage part of the above old platform."
       ]
     },
     {
       "company": "WeWork",
       "position": "Software Engineer II",
+      "website": "https://www.wework.cn/",
       "startDate": "2018-04-23",
       "endDate": "2020-04-01",
       "summary": "[Team1] Lead a team of 4 FEs for wework.cn. [Team2] Re-architecture a multi-team-and-multi-framework CMS project.",
@@ -99,7 +114,6 @@
     {
       "organization": "WeLunch",
       "position": "Founder",
-      "website": "https://welunch.cn",
       "startDate": "2019-05-17",
       "summary": "I started and operated a community within HQ of WeWork aiming to provide affordable, healthy and delicious lunch for every colleague.",
       "highlights": [
@@ -110,7 +124,6 @@
     {
       "organization": "SJTU Software School Youth Volunteers",
       "position": "Vice Captain",
-      "website": "http://page.renren.com/601523118?checked=true",
       "startDate": "2012-09-01",
       "endDate": "2014-07-01",
       "summary": "Joined activities as a volunteer and organized some as a vice-captain.",
@@ -150,8 +163,9 @@
         "Jest",
         "Storybook",
         "styled-components",
-        "create-react-app",
         "antd",
+        "Material-ui",
+        "Contentful",
         "Vue"
       ]
     },
@@ -160,6 +174,7 @@
       "level": "Master",
       "keywords": [
         "Mono-repo",
+        "@nrwl/nx",
         "Github Actions",
         "Webpack",
         "Babel",
@@ -171,13 +186,7 @@
     {
       "name": "Back-end Development",
       "level": "Advanced",
-      "keywords": [
-        "NodeJS",
-        "Nextjs",
-        "KoaJS",
-        "MongoDB",
-        "Mongoose"
-      ]
+      "keywords": ["NodeJS", "Nextjs", "KoaJS", "MongoDB", "Mongoose"]
     }
   ],
   "languages": [
@@ -193,17 +202,11 @@
   "interests": [
     {
       "name": "Science Fiction",
-      "keywords": [
-        "Three Body",
-        "Foundation"
-      ]
+      "keywords": ["Three Body", "Foundation"]
     },
     {
       "name": "US TV series",
-      "keywords": [
-        "Westworld",
-        "Rick and Morty"
-      ]
+      "keywords": ["Westworld", "Rick and Morty"]
     },
     {
       "name": "Politics and History",
