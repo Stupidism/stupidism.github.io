@@ -31,7 +31,7 @@
       "position": "Senior Front-end Engineer",
       "website": "https://www.getjerry.com/",
       "startDate": "2021-02-02",
-      "summary": "Working on SEO&Content team.",
+      "summary": "Working in SEO&Content team.",
       "highlights": [
         "Collabrated with design team to refine process with design system and component library with Atomic design pattern to solve the problem of miscommunication between engineers and designers caused by distance and languages",
         "Introduced a headless CMS to replace the old self-developed CMS for content team to optimzie UX of editors and separate hard-coded and mixed content and design",
@@ -84,29 +84,6 @@
         "Designed interactive wire-framing prototype with Balsamiq for some of the projects.",
         "Wrote many crawler scripts in NodeJS to crawl 3rd party AQI data.",
         "Open-sourced a component lib, a test util, and a starter."
-      ]
-    },
-    {
-      "company": "Shanghai Zhaimi Trading Co., Ltd",
-      "position": "Intern Front-end Developer",
-      "website": "http://zhai.me/#/customer",
-      "startDate": "2015-10-14",
-      "endDate": "2016-02-15",
-      "summary": "Developed and maintained an operational website written in AngularJS.",
-      "highlights": [
-        "Developed a code generator and common lib and used them to optimize the project."
-      ]
-    },
-    {
-      "company": "Ericsson Shanghai",
-      "position": "Intern",
-      "website": "http://www.ericsson.com/cn/",
-      "startDate": "2015-07-01",
-      "endDate": "2015-10-03",
-      "summary": "Developed a C# project, fix bugs and write tests in a team.",
-      "highlights": [
-        "Self-learn C# and use it in the project. Finished the 2-intern-and-2-month project alone in 1 month.",
-        "Fastest intern qualified to join a team."
       ]
     }
   ],
