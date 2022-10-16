@@ -131,7 +131,7 @@ function func_create_new_code(parent_ele, /*optional*/ div_list, display) {
   });
 
   createStatement({
-    comment: "I claimed She is the girl! I'm up!!!",
+    comment: "I claimed she is the girl! I'm up!!!",
     object: "i",
     func: "claim",
     target: "u",
