@@ -141,12 +141,18 @@
       "keywords": [
         "React",
         "TypeScript",
+        "GraphQL",
+        "RESTful",
         "Jest",
+        "Cypress",
         "Storybook",
-        "styled-components",
-        "antd",
         "Material-ui",
+        "antd",
+        "PayloadCMS",
         "Contentful",
+        "styled-components",
+        "emotion",
+        "tailwindcss",
         "Vue"
       ]
     },
@@ -158,9 +164,13 @@
         "@nrwl/nx",
         "Github Actions",
         "Webpack",
+        "Vercel",
         "Babel",
         "Aliyun",
-        "Micro-frontend",
+        "AWS",
+        "Atomic Design",
+        "Backward Compatibility",
+        "no-code/low-code",
         "Docker"
       ]
     },
@@ -186,14 +196,14 @@
       "keywords": ["Three Body", "Foundation"]
     },
     {
-      "name": "US TV series",
-      "keywords": ["Westworld", "Rick and Morty"]
+      "name": "Board Games",
+      "keywords": ["7 Wonders", "Catan Island"]
     },
     {
       "name": "Politics and History",
       "keywords": [
         "The Key 100 Wars in Chinese Feudal History",
-        "政事堂 Political Affairs Hall"
+        "Eight crisis: The Political Economy of China's Development"
       ]
     }
   ],

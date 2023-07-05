@@ -35,7 +35,7 @@
       "highlights": [
         "领导前端团队，在构建和维护CMS系统方面提供技术领导力，支持SEO团队。领导了4次网站修订，使 Google Search Console 的 impression 次数在不到一年的时间里从100万增长到约400万。",
         "与设计团队合作，使用基于 atomic design 模式的设计系统和组件库优化开发流程。有效解决了由地理和语言差异引起的工程师和设计师之间的沟通问题。",
-        "将网站代码从按根路由拆分的多个 web-apps 转换为在 monorepo 中的按组件分层拆分的 web-apps 和组件库，解决了代码共享和部署复杂性的问题。",
+        "将网站代码从按根路由拆分的多个 web-apps 重构为在 monorepo 中的按组件分层拆分的 web-apps 和组件库，解决了代码共享和部署复杂性的问题。",
         "引入了一种全新的以代码为中心的CMS，取代了旧的自研CMS，改善了编辑人员的用户体验，并实现了硬编码内容和设计的清晰分离。",
         "实现了一个模块-富文本-组件 3 级内容模型，解决了在SEO领域（类似于无代码平台）中与页面布局/模板、丰富内容和组件复用相关的挑战。",
         "基于Vercel实现了基于分支的部署机制，以管理日益增加的单一环境中的部署冲突，并在 code review 之前为 PR 提供预览链接。",
@@ -160,12 +160,18 @@
       "keywords": [
         "React",
         "TypeScript",
+        "GraphQL",
+        "RESTful",
         "Jest",
+        "Cypress",
         "Storybook",
-        "styled-components",
-        "antd",
         "Material-ui",
+        "antd",
+        "PayloadCMS",
         "Contentful",
+        "styled-components",
+        "emotion",
+        "tailwindcss",
         "Vue"
       ]
     },
@@ -177,9 +183,13 @@
         "@nrwl/nx",
         "Github Actions",
         "Webpack",
+        "Vercel",
         "Babel",
         "阿里云",
-        "微前端",
+        "AWS",
+        "Atomic Design",
+        "向后兼容",
+        "no-code/low-code",
         "Docker"
       ]
     },
@@ -205,12 +215,12 @@
       "keywords": ["三体", "基地"]
     },
     {
-      "name": "美剧",
-      "keywords": ["西部世界", "瑞克和莫蒂"]
+      "name": "桌游",
+      "keywords": ["七大奇迹", "卡坦岛"]
     },
     {
-      "name": "政治历史",
-      "keywords": ["封建百战", "政事堂"]
+      "name": "政治经济历史",
+      "keywords": ["封建百战", "八次危机"]
     }
   ],
   "references": []
