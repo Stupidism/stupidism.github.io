@@ -31,12 +31,16 @@
       "position": "Senior Front-end Engineer",
       "website": "https://www.getjerry.com/",
       "startDate": "2021-02-02",
-      "summary": "作为 SEO&Content 组的前端开发，参与 getjerry.com 网站的开发和改版. 优化工作流，制定组件设计和代码规范",
+      "summary": "作为 SEO&Content 组的 Staff 前端工程师，参与 getjerry.com 网站和内部 CMS 的开发和改版. 优化工作流，制定组件设计和代码规范",
       "highlights": [
-        "跟设计组合作用 Atomic 设计原则细化设计系统和组件库，来解决工程师和设计师因距离和语言沟通不畅的问题",
-        "引入 headless CMS 系统重构旧有的自研发的 CMS 系统，来优化编辑用户体验和分离大量硬编码混杂在一起的内容与设计",
-        "跟 DevOps 组一起实现基于分支的部署环境，来解决日益增长的单 stage 环境部署冲突问题",
-        "编写了一套前端代码规范，来统一所有前端项目中的代码风格 https://github.com/Stupidism/stupic"
+        "领导前端团队，在构建和维护CMS系统方面提供技术领导力，支持SEO团队。领导了4次网站修订，使 Google Search Console 的 impression 次数在不到一年的时间里从100万增长到约400万。",
+        "与设计团队合作，使用基于 atomic design 模式的设计系统和组件库优化开发流程。有效解决了由地理和语言差异引起的工程师和设计师之间的沟通问题。",
+        "将网站代码从按根路由拆分的多个 web-apps 转换为在 monorepo 中的按组件分层拆分的 web-apps 和组件库，解决了代码共享和部署复杂性的问题。",
+        "引入了一种全新的以代码为中心的CMS，取代了旧的自研CMS，改善了编辑人员的用户体验，并实现了硬编码内容和设计的清晰分离。",
+        "实现了一个模块-富文本-组件 3 级内容模型，解决了在SEO领域（类似于无代码平台）中与页面布局/模板、丰富内容和组件复用相关的挑战。",
+        "基于Vercel实现了基于分支的部署机制，以管理日益增加的单一环境中的部署冲突，并在 code review 之前为 PR 提供预览链接。",
+        "推动在前端和后端的各个环节中广泛采用TypeScript，确保在输入输出环节对数据流进行更好的控制，避免不必要的滥用。",
+        "创建并推行前端代码规范，确保所有前端应用程序保持一致的代码风格。规范详见：https://github.com/Stupidism/stupic"
       ]
     },
     {
@@ -182,13 +186,7 @@
     {
       "name": "后端开发",
       "level": "Advanced",
-      "keywords": [
-        "Nextjs",
-        "NodeJS",
-        "KoaJS",
-        "MongoDB",
-        "Mongoose"
-      ]
+      "keywords": ["Nextjs", "NodeJS", "KoaJS", "MongoDB", "Mongoose"]
     }
   ],
   "languages": [
@@ -204,24 +202,15 @@
   "interests": [
     {
       "name": "科幻",
-      "keywords": [
-        "三体",
-        "基地"
-      ]
+      "keywords": ["三体", "基地"]
     },
     {
       "name": "美剧",
-      "keywords": [
-        "西部世界",
-        "瑞克和莫蒂"
-      ]
+      "keywords": ["西部世界", "瑞克和莫蒂"]
     },
     {
       "name": "政治历史",
-      "keywords": [
-        "封建百战",
-        "政事堂"
-      ]
+      "keywords": ["封建百战", "政事堂"]
     }
   ],
   "references": []
