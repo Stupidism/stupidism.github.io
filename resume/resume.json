@@ -22,9 +22,25 @@
   },
   "work": [
     {
+      "company": "Workstream",
+      "position": "Senior Frontend Engineer",
+      "website": "https://www.workstream.us/",
+      "startDate": "2023-03-01",
+      "summary": "As a senior front-end engineer at Workstream, I lead the hiring product’s development and architecture within our monorepo. Additionally, I serve as the go-to person for front-end inquiries across the entire engineering team.",
+      "highlights": [
+        "Maintained and developed new features for the hiring product, dedicating over 50% of my time to this task.",
+        "Voluntarily collaborated with the design team to establish a design system. Implemented a component library based on it and collaborated with other squads and front-end engineers to refactor existing code, integrating the new design system using feature flags.",
+        "Optimized the CI/CD workflow and documented frontend best practices extensively.",
+        "Introduced and managed a monorepo to streamline multiple front-end projects, including apps for various squads, a component library for design system and several sharable component/hook libraries among different products.",
+        "Facilitated frontend engineering meetings to discuss technical plans, share updates, and troubleshoot issues.",
+        "Voluntarily managed a Jira board to oversee tasks for all frontend engineers, including epics such as component library implementation and adoption, scaffold maintenance, regular library upgrades, and dependency convergence."
+      ]
+    },
+    {
       "company": "Jerry",
       "position": "Staff Software Engineer",
       "website": "https://www.getjerry.com/",
+      "endDate": "2023-02-15",
       "startDate": "2021-02-02",
       "summary": "As a staff front-end engineer in the SEO & Content team, I participated in the development and revamping of the getjerry.com website and internal CMS. I optimized the workflow and established component design and code standards.",
       "highlights": [
@@ -136,6 +152,7 @@
       "keywords": [
         "React",
         "TypeScript",
+        "react-query",
         "GraphQL",
         "RESTful",
         "Jest",
@@ -146,7 +163,6 @@
         "PayloadCMS",
         "Contentful",
         "styled-components",
-        "emotion",
         "tailwindcss",
         "Vue"
       ]
@@ -156,16 +172,16 @@
       "level": "Master",
       "keywords": [
         "Mono-repo",
-        "@nrwl/nx",
+        "nx",
         "Github Actions",
         "Webpack",
         "Vercel",
         "Babel",
         "Aliyun",
         "AWS",
+        "OpenAPI",
         "Atomic Design",
         "Backward Compatibility",
-        "no-code/low-code",
         "Docker"
       ]
     },
