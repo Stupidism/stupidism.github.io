@@ -141,7 +141,7 @@
       "title": "China SSOIE Competition 2nd Prize",
       "date": "2014-09-03",
       "awarder": "MOE of China, MOC of China, Wuxi Government ",
-      "summary": "Led light coded transimition. 'SSOIE' for 'Student Service Outsourcing Innovation and Entrepreneurship'"
+      "summary": "Led light coded transmission. 'SSOIE' for 'Student Service Outsourcing Innovation and Entrepreneurship'"
     }
   ],
   "publications": [],
@@ -153,7 +153,6 @@
         "React",
         "TypeScript",
         "react-query",
-        "RESTful",
         "Jest",
         "Cypress",
         "Storybook",
@@ -176,7 +175,6 @@
         "Vercel",
         "Babel",
         "AWS",
-        "OpenAPI",
         "Atomic Design",
         "Backward Compatibility",
         "Docker"
@@ -188,12 +186,13 @@
       "keywords": [
         "NodeJS",
         "Nextjs",
-        "KoaJS",
+        "OpenAPI",
+        "RESTful",
+        "tRPC",
+        "zod",
         "drizzle",
         "Prisma",
-        "PostgreSQL",
-        "MongoDB",
-        "Mongoose"
+        "PostgreSQL"
       ]
     }
   ],
