@@ -153,18 +153,16 @@
         "React",
         "TypeScript",
         "react-query",
-        "GraphQL",
         "RESTful",
         "Jest",
         "Cypress",
         "Storybook",
-        "Material-ui",
         "antd",
         "PayloadCMS",
-        "Contentful",
+        "shadcn/ui",
         "styled-components",
         "tailwindcss",
-        "Vue"
+        "GraphQL"
       ]
     },
     {
@@ -177,7 +175,6 @@
         "Webpack",
         "Vercel",
         "Babel",
-        "Aliyun",
         "AWS",
         "OpenAPI",
         "Atomic Design",
@@ -188,7 +185,16 @@
     {
       "name": "Back-end Development",
       "level": "Advanced",
-      "keywords": ["NodeJS", "Nextjs", "KoaJS", "MongoDB", "Mongoose"]
+      "keywords": [
+        "NodeJS",
+        "Nextjs",
+        "KoaJS",
+        "drizzle",
+        "Prisma",
+        "PostgreSQL",
+        "MongoDB",
+        "Mongoose"
+      ]
     }
   ],
   "languages": [
